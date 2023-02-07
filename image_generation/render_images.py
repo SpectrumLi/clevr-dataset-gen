@@ -290,7 +290,7 @@ def render_scene(args,
   # Save all six axis-aligned directions in the scene struct
   scene_struct['directions']['behind'] = tuple(plane_behind)
   scene_struct['directions']['front'] = tuple(-plane_behind)
-  scene_struct['directions']['left'] = tuple(plane_left)
+  scene_struct['directions']['left'] = tuple(plane_left) 
   scene_struct['directions']['right'] = tuple(-plane_left)
   scene_struct['directions']['above'] = tuple(plane_up)
   scene_struct['directions']['below'] = tuple(-plane_up)
